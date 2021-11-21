@@ -12,5 +12,5 @@ Bye
 * Pour créer une base de donnée en tant que nouvel utilisateur
 ```
 mysql -p
-mysql > CREATE DATABASE 'superbase';
+mysql> CREATE DATABASE 'superbase';
 ```
