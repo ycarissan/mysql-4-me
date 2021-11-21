@@ -9,8 +9,8 @@ mysql> GRANT ALL PRIVILEGES ON * . * TO 'toto'@'localhost';
 mysql> exit
 Bye
 ```
-* Pour créer une base de donnée en tant que nouvel utilisateur
+* Pour créer une base de donnée UTF8 (ci pour case insensitive) en tant que nouvel utilisateur
 ```
 mysql -p
-mysql> CREATE DATABASE 'superbase';
+mysql> CREATE DATABASE 'superbase' COLLATE utf8_general_ci;
 ```
