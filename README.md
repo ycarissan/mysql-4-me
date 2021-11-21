@@ -14,3 +14,5 @@ Bye
 mysql -p
 mysql> CREATE DATABASE 'superbase' COLLATE utf8_general_ci;
 ```
+ATTENTION, les caractères unicodes ne sont pris en compte que dans les types de variable
+NCHAR ou NVARCHAR. Les types CHAR et VARCHAR sont en ASCII.
